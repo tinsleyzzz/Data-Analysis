@@ -1,3 +1,12 @@
+% OBJECTIVE:
+% The University of California Marching Band performs at halftime during all home football games as well as 
+% some away games and bowl games. As part of the performance, the band forms several formations on the field 
+% while marching and playing music. Currently, the band members need to spend a lot of time during rehearsals
+% practicing the formations as well as the transitions from one formation to the next without collide during  
+% the transitions. We want to write a program that can coordinate a transition strategy between one formation 
+% and the next for Cal Marching Band. Automating transition process will not only save their time, but also 
+% enable them to form more complicated formations.
+
 function [instructions] = calband_transition(initial_formation, target_formation, max_beats)
 % This code finds the i and j indices of each target location and stores
 % them in i and j, respectively (note that i and j are not used as of yet!)
